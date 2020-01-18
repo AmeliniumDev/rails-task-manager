@@ -1,6 +1,6 @@
-class CreateRestaurants < ActiveRecord::Migration[5.2]
+class CreateTasks < ActiveRecord::Migration[5.2]
   def change
-    create_table :restaurants do |t|
+    create_table :tasks do |t|
       t.string :title
       t.text :details
       t.boolean :completed, default: false

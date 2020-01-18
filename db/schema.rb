@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_18_111946) do
+ActiveRecord::Schema.define(version: 2020_01_18_114244) do
 
-  create_table "restaurants", force: :cascade do |t|
+  create_table "tasks", force: :cascade do |t|
     t.string "title"
     t.text "details"
     t.boolean "completed", default: false
